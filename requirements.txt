@@ -1,0 +1,25 @@
+# 資料處理與數值運算
+numpy==1.26.4
+pandas==2.2.3
+
+# 視覺化
+matplotlib==3.11.0
+mplfinance==0.12.10b0
+
+# 金融資料
+yfinance==1.5.1
+
+# 技術指標（TA-Lib 需先安裝底層 C 函式庫，見 README）
+TA-Lib==0.6.7
+
+# 機器學習
+scikit-learn==1.9.0
+
+# 深度學習
+tensorflow==2.16.2
+
+# 影像處理
+Pillow==12.2.0
+
+# Jupyter 執行環境
+jupyter

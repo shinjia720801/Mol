@@ -55,6 +55,29 @@ Mol/
 - Jupyter Notebook
 - 部分深度學習單元建議於 Google Colab（GPU）執行
 
+## 安裝
+
+```bash
+# 建議建立虛擬環境
+python3 -m venv .venv
+source .venv/bin/activate      # Windows：.venv\Scripts\activate
+
+# 安裝套件
+pip install -r requirements.txt
+```
+
+**TA-Lib 注意事項**：`TA-Lib` 需先安裝底層 C 函式庫，再用 pip 安裝 Python 綁定：
+
+```bash
+# macOS
+brew install ta-lib
+
+# Ubuntu / Debian
+sudo apt-get install ta-lib
+```
+
+若使用 Google Colab，執行深度學習單元前記得切換到 GPU（執行階段 → 變更執行階段類型 → GPU）。
+
 ## 說明
 
 - `2026/First_Class/`：第一門課的課程 Notebook，依 `Week_N` 週次分類。
