@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.csv
+.idea/
+Data_Analysis/
+Basic_Python/
+.claude/
+requirements.txt
+.claude/
